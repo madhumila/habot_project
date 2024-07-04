@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/habot_project/static/css/main.4651df3c.css",
+    "main.js": "/habot_project/static/js/main.75b3332e.js",
+    "static/media/background.png": "/habot_project/static/media/background.4f3a1615d7785f73c314.png",
+    "static/media/Habot.svg": "/habot_project/static/media/Habot.ddaa9da6ef2161bfd574feb6cc028e0b.svg",
+    "static/media/handshake.svg": "/habot_project/static/media/handshake.9bc57823ae9370f7032afba6b03a268c.svg",
+    "static/media/habot-footer.svg": "/habot_project/static/media/habot-footer.6a3e7eaa4760ceb650150063c33c4914.svg",
+    "static/media/profile.svg": "/habot_project/static/media/profile.8aca62725bbb2b369e22649966972e19.svg",
+    "index.html": "/habot_project/index.html",
+    "static/media/role.svg": "/habot_project/static/media/role.cd823fd147ba1c4f14ca3262d9e61298.svg",
+    "static/media/review.svg": "/habot_project/static/media/review.c09b43a8739582fba3572e05f04e4283.svg",
+    "static/media/requirements.svg": "/habot_project/static/media/requirements.864ca7b2864de042c7dfa76376e74283.svg",
+    "static/media/quote.svg": "/habot_project/static/media/quote.1ac9ccd157a82a409352bc98ebe96491.svg",
+    "main.4651df3c.css.map": "/habot_project/static/css/main.4651df3c.css.map",
+    "main.75b3332e.js.map": "/habot_project/static/js/main.75b3332e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4651df3c.css",
+    "static/js/main.75b3332e.js"
+  ]
+}
