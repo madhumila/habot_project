@@ -1,0 +1,70 @@
+.video-section {
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #032340;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.video-frame {
+  width: 640px;
+  height: 350px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.video-text {
+  color: white;
+  max-width: 540px;
+  margin-left: 20px;
+}
+
+.video-heading {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buyer-text {
+  color: #ffa500;
+}
+
+.check-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.check-icon {
+  color: #28a745;
+  margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+  .video-frame,
+  .video-text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .video-section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .video-text {
+    text-align: center;
+  }
+
+  .video-heading {
+    justify-content: center;
+  }
+}

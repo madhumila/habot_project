@@ -1,0 +1,50 @@
+.navbar {
+  height: 86px;
+  background-color: white;
+}
+
+.navbar-logo {
+  width: 181px;
+  height: 43px;
+}
+
+.nav-item {
+  margin-left: 20px; /* Adjust spacing between nav items */
+}
+
+.nav-link {
+  color: black; /* Adjust the link color */
+  font-size: 15px; /* Adjust the font size */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: white;
+}
+
+.login-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #00732f;
+  background-color: white;
+  border: 1px solid #00732f;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline from link */
+}
+
+.login-button:hover {
+  background-color: #00732f;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}

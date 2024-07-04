@@ -1,0 +1,122 @@
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.content-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 114px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.left-section {
+  max-width: 100%;
+  padding: 20px;
+  text-align: left;
+  flex: 1;
+}
+
+.right-section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.location-button {
+  border: 1px solid #e7760d;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 260px;
+  height: 65px;
+}
+
+.sign-up-button {
+  background-color: #28a745;
+  color: white;
+  width: 317px;
+  height: 54px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.sign-up-text {
+  margin: 0 auto;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.sign-up-icon {
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+.highlight-text {
+  color: #5c42cf;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .right-section {
+    width: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  .right-section {
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .content-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section {
+    padding: 20px 0;
+  }
+
+  .right-section {
+    width: 100%;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

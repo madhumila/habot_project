@@ -1,0 +1,136 @@
+.footer {
+  background-color: #122c47;
+  color: white;
+  padding: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top-border,
+.footer-bottom-border {
+  height: 1px; /* Thinner line */
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0; /* Add padding to ensure content is equidistant from top and bottom */
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 10px; /* Add margin to separate the logo and copyright text */
+}
+
+p {
+  margin: auto;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.social-icon:hover {
+  color: #1da1f2;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .footer-column {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .footer-social {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
+}

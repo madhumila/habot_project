@@ -1,0 +1,51 @@
+.section-style {
+  height: 377px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.inner-section {
+  height: 254px;
+  background-color: #e8fbff;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.inner-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.button-style {
+  margin-left: 20px; /* Adjust spacing between text and button */
+  border-radius: 5px;
+  background-color: #eb7150;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .inner-content {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .button-style {
+    margin-left: 0; /* Remove left margin on button */
+    margin-top: 10px; /* Add space between text and button */
+  }
+}
